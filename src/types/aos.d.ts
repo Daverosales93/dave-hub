@@ -1,2 +1,4 @@
-declare module 'aos';
-declare module 'aos/dist/aos.css';
+declare module 'aos' {
+  const AOS: any;
+  export default AOS;
+}
