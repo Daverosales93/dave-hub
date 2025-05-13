@@ -1,6 +1,5 @@
 'use client';
 import { useEffect, useState } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { Typewriter } from 'react-simple-typewriter';
 import ProjectCard from "@/components/ProjectCard";
@@ -19,8 +18,14 @@ export default function Home() {
   };
 
   useEffect(() => {
-    AOS.init({ duration: 800, once: true });
-  }, []);
+  (async () => {
+    const AOS = (await import('aos')).default;
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  })();
+}, []);
 
 
   return (
