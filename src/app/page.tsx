@@ -18,14 +18,14 @@ export default function Home() {
   };
 
   useEffect(() => {
-  (async () => {
-    const AOS = (await import('aos')).default;
-    AOS.init({
-      duration: 800,
-      once: true
-    });
-  })();
-}, []);
+    (async () => {
+      const AOS = (await import('aos')).default;
+      AOS.init({
+        duration: 800,
+        once: true
+      });
+    })();
+  }, []);
 
 
   return (
