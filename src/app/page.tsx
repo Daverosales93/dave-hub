@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from "react";
+import { Analytics } from '@vercel/analytics/react';
 import "aos/dist/aos.css";
 import { Typewriter } from 'react-simple-typewriter';
 import ProjectCard from "@/components/ProjectCard";
@@ -322,6 +323,7 @@ export default function Home() {
           </a>
         </footer>
         </div>
+        <Analytics />
       </main>
     </>
   );
