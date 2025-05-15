@@ -189,7 +189,6 @@ export default function Home() {
                   : "Plataforma para gestión de tickets y seguimiento de incidencias en equipos de soporte técnico. Diseñada para eficiencia operativa y trazabilidad clara."
               }
               link="https://github.com/Daverosales93/ticket-hero"
-              image="https://source.unsplash.com/featured/?support,helpdesk"
               tech={["Next.js", "TypeScript", "MongoDB"]}
             />
           </div>
@@ -202,7 +201,6 @@ export default function Home() {
                   : "Plataforma para gestión de tickets y seguimiento de incidencias en equipos de soporte técnico. Diseñada para eficiencia operativa y trazabilidad clara."
               }
               link="https://github.com/Daverosales93/ticket-hero"
-              image="https://source.unsplash.com/featured/?support,helpdesk"
               tech={["Next.js", "TypeScript", "MongoDB"]}
             />
           </div>
