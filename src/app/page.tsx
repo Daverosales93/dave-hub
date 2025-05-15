@@ -195,15 +195,15 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center hover:scale-110 transition-transform duration-300">
             <ProjectCard
-              title={lang === "en" ? "Server Watchdog" : "Server Watchdog"}
+              title={lang === "en" ? "Ticket Hero" : "Ticket Hero"}
               description={
                 lang === "en"
-                  ? "Server monitoring system that visualizes key metrics, generates alerts, and ensures uptime."
-                  : "Sistema de monitoreo de servidores que permite visualizar métricas clave, generar alertas y garantizar el uptime de plataformas web."
+                  ? "Ticket and issue tracking platform designed for operational efficiency and clear traceability."
+                  : "Plataforma para gestión de tickets y seguimiento de incidencias en equipos de soporte técnico. Diseñada para eficiencia operativa y trazabilidad clara."
               }
-              link="https://github.com/Daverosales93/server-watchdog"
-              image="https://source.unsplash.com/featured/?server,monitoring"
-              tech={["Node.js", "Grafana", "Docker"]}
+              link="https://github.com/Daverosales93/ticket-hero"
+              image="https://source.unsplash.com/featured/?support,helpdesk"
+              tech={["Next.js", "TypeScript", "MongoDB"]}
             />
           </div>
         </section>
