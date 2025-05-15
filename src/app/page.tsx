@@ -77,7 +77,7 @@ export default function Home() {
           </div>
       <h1
         data-aos="fade-down"
-        className="text-5xl font-extrabold text-center mb-16 text-white"
+        className="text-5xl font-extrabold text-center mb-16 text-white min-h-[4.5rem] sm:min-h-0"
       >
         <Typewriter
           key={`typewriter-${lang}`}
