@@ -10,6 +10,7 @@ import Image from "next/image";
 export default function Home() {
   const [lang, setLang] = useState<"en" | "es">("en");
   const [isLoading, setIsLoading] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const toggleLang = () => {
     setIsLoading(true);
     setTimeout(() => {
@@ -17,6 +18,12 @@ export default function Home() {
       setIsLoading(false);
     }, 500); // simulate a small delay
   };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setIsMobile(window.innerWidth < 640);
+    }
+  }, []);
 
   useEffect(() => {
     (async () => {
@@ -80,20 +87,28 @@ export default function Home() {
         data-aos="fade-down"
         className="text-5xl font-extrabold text-center mb-16 text-white min-h-[4.5rem] sm:min-h-0"
       >
-        <Typewriter
-          key={`typewriter-${lang}`}
-          words={
-            lang === "en"
-              ? ["Hi, welcome to my presentation page"]
-              : ["Hola, bienvenidos a mi página de presentación"]
-          }
-          loop={false}
-          cursor
-          cursorStyle="|"
-          typeSpeed={70}
-          deleteSpeed={0}
-          delaySpeed={1000}
-        />
+        {isMobile ? (
+          <span>
+            {lang === "en"
+              ? "Hi, welcome to my presentation page"
+              : "Hola, bienvenidos a mi página de presentación"}
+          </span>
+        ) : (
+          <Typewriter
+            key={`typewriter-${lang}`}
+            words={
+              lang === "en"
+                ? ["Hi, welcome to my presentation page"]
+                : ["Hola, bienvenidos a mi página de presentación"]
+            }
+            loop={false}
+            cursor
+            cursorStyle="|"
+            typeSpeed={70}
+            deleteSpeed={0}
+            delaySpeed={1000}
+          />
+        )}
       </h1>
      
         <section id="sobre-mi" data-aos="fade-right" className="max-w-4xl mx-auto mt-20 text-center mb-24">
