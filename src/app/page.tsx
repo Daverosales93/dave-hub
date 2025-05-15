@@ -178,6 +178,7 @@ export default function Home() {
                   : "Sitio web profesional para mostrar mis proyectos, hecho con Next.js y Tailwind."
               }
               link="https://github.com/Daverosales93/my-portfolio"
+              tech={["Next.js", "TypeScript", "MongoDB"]}
             />
           </div>
           <div className="flex flex-col items-center hover:scale-110 transition-transform duration-300">
