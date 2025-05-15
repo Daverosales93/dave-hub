@@ -85,7 +85,7 @@ export default function Home() {
           </div>
       <h1
         data-aos="fade-down"
-        className="text-5xl font-extrabold text-center mb-16 text-white min-h-[4.5rem] sm:min-h-0"
+        className="text-3xl sm:text-5xl font-extrabold text-center mb-16 text-white min-h-[4.5rem] sm:min-h-0"
       >
         {isMobile ? (
           <span>
@@ -205,7 +205,7 @@ export default function Home() {
                   ? "Monitoring and alert system built with Python and shell scripts to track system uptime and performance."
                   : "Sistema de monitoreo y alertas construido con Python y scripts de shell para rastrear el rendimiento y disponibilidad del sistema."
               }
-              link="https://github.com/Daverosales93/watchdog"
+              link="https://github.com/Daverosales93/server-watchdog"
               tech={["Python", "Shell", "Linux"]}
             />
           </div>
