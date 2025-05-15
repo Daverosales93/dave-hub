@@ -184,14 +184,14 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center hover:scale-110 transition-transform duration-300">
             <ProjectCard
-              title={lang === "en" ? "Ticket Hero" : "Ticket Hero"}
+              title={lang === "en" ? "Watchdog" : "Watchdog"}
               description={
                 lang === "en"
-                  ? "Ticket and issue tracking platform designed for operational efficiency and clear traceability."
-                  : "Plataforma para gestión de tickets y seguimiento de incidencias en equipos de soporte técnico. Diseñada para eficiencia operativa y trazabilidad clara."
+                  ? "Monitoring and alert system built with Python and shell scripts to track system uptime and performance."
+                  : "Sistema de monitoreo y alertas construido con Python y scripts de shell para rastrear el rendimiento y disponibilidad del sistema."
               }
-              link="https://github.com/Daverosales93/ticket-hero"
-              tech={["Next.js", "TypeScript", "MongoDB"]}
+              link="https://github.com/Daverosales93/watchdog"
+              tech={["Python", "Shell", "Linux"]}
             />
           </div>
           <div className="flex flex-col items-center hover:scale-110 transition-transform duration-300">
