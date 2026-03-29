@@ -1,4 +1,4 @@
-# 🌐 davehub.dev
+# 🌐 dave-hub.dev
 
 🚀 Welcome to my personal portfolio — built with **Next.js + TailwindCSS**  
 🌟 Bienvenido a mi portafolio personal — hecho con **Next.js + TailwindCSS**
@@ -38,7 +38,7 @@ Soy **Dave**, desarrollador full stack en formación, enfocado en crear experien
 
 ## 📬 Contact
 
-- Portfolio live: [davehub.dev](https://davehub.dev)
+- Portfolio live: [dave-hub.dev](https://dave-hub.dev)
 - GitHub: [@Daverosales93](https://github.com/Daverosales93)
 - LinkedIn: [linkedin.com/in/dave-rossales](https://linkedin.com/in/dave-rossales)
 - Email: [davealvarrez93@gmail.com](mailto:davealvarrez93@gmail.com)
