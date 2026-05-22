@@ -316,7 +316,7 @@ export default function Home() {
               : "¿Te gustaría colaborar en un proyecto emocionante, compartir ideas o simplemente conectar? ¡Estoy a un mensaje de distancia!"}
           </p>
           <a
-            href="mailto:davealvarrez93@gmail.com"
+            href="mailto:logicbydave@gmail.com"
             className="inline-block px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
           >
             {lang === "en" ? "Send me an email" : "Envíame un correo"}
@@ -333,7 +333,7 @@ export default function Home() {
             LinkedIn
           </a>{" "}
           ·{" "}
-          <a href="mailto:davealvarrez93@gmail.com" className="text-blue-400 hover:underline">
+          <a href="mailto:logicbydave@gmail.com" className="text-blue-400 hover:underline">
             {lang === "en" ? "Contact" : "Contacto"}
           </a>
         </footer>

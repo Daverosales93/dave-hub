@@ -41,7 +41,7 @@ Soy **Dave**, desarrollador full stack en formación, enfocado en crear experien
 - Portfolio live: [dave-hub.dev](https://dave-hub.dev)
 - GitHub: [@Daverosales93](https://github.com/Daverosales93)
 - LinkedIn: [linkedin.com/in/dave-rossales](https://linkedin.com/in/dave-rossales)
-- Email: [davealvarrez93@gmail.com](mailto:davealvarrez93@gmail.com)
+- Email: [logicbydave@gmail.com](mailto:logicbydave@gmail.com)
 
 ---
 
